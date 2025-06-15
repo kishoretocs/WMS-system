@@ -90,6 +90,8 @@ Streamlit
 ├── requirements.txt         # Dependencies
 └── README.md                # Project documentation
 #📬 Contact
-Made with ❤️ by @kishoretocs
+
 Feel free to reach out if you have any questions!
+kishoretocs@gmail.com
+7358433862
 ```
