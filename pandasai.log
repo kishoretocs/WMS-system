@@ -1,0 +1,273 @@
+2025-06-15 15:22:31 [INFO] Question: Show me the top 5 rows of the data.
+2025-06-15 15:24:09 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:32:35 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:32:36 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:32:36 [INFO] Prompt ID: 419bdbe8-9b04-4471-a02f-4cddf0f08974
+2025-06-15 15:32:36 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:32:36 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:32:36 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:32:36 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:32:37 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+4990,clip_light2,Bts_Koya_RJ_Shooky_Cooky,CSTE MEESHO,,,,,,,GL FK,,
+1056,d5,,CSTE FK,Inactive,Deleted,,#REF!,https://img1a.flixcart.com/image/50/50/xif0q/sunglass/8/4/v/standard-square-sunglass-rudrav-original-imagtyprvbshjncy.jpeg,,,Active,801
+2432,octo_pinkred1,CSTE_0149_SG_ButterFly_Pink,Cste Amazon,In Progress,Active Listing,,#REF!,https://img1a.flixcart.com/image/50/50/kzpw2vk0/holi-festival-combo/e/a/l/color-balloon-no-bunch-of-balloon-amazing-magic-water-balloon-original-imagbz3tffhvhyhq.jpeg,,Rudrav Meesho,CSTE AMAZON,834
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:32:37 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:32:37 [ERROR] Pipeline failed on step 3: Call method has not been implemented
+2025-06-15 15:35:40 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:35:40 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:35:40 [INFO] Prompt ID: ae34132c-3772-4225-987e-1152a99aeaf0
+2025-06-15 15:35:40 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:35:40 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:35:40 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:35:40 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:35:40 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+3062,XH-QSUJ-BWWF,Duck_Keychain_Flower_Duck,GL FK,In Progress,,,,https://m.media-amazon.com/images/I/81njXL6WiUL.jpg,,Grand Total,,0
+3000,CantHelpFallinginLove_Brown_flex,,Cste Amazon,Active,Active Listing,,#REF!,https://img1a.flixcart.com/image/50/50/xif0q/stuffed-toy/r/l/c/cute-charmander-cartoon-character-soft-stuffed-plush-toy-for-original-imah25ezg9hwghm3.jpeg,,Rudrav Meesho,CSTE AMAZON,
+1118,Teddy Bear-Toy-01,Holi_tshirt_2XL,CSTE FK,,Blocked,,#REF!,,,,5218,834
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:35:40 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:35:40 [ERROR] Pipeline failed on step 3: OpenRouterLLM.call() takes 2 positional arguments but 3 were given
+2025-06-15 15:37:09 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:37:09 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:37:09 [INFO] Prompt ID: e119681a-626f-401d-9b4b-5ce18cc906af
+2025-06-15 15:37:09 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:37:09 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:37:09 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:37:09 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:37:09 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+5022,YuUuypNq,,CSTE MEESHO,Inactive,combo pause,,#REF!,https://m.media-amazon.com/images/I/51SDDe9+LbL.jpg,,,834,
+2846,MusicBox_JurassicPark,CSTE_0181_SG_Star_Blue,Cste Amazon,Active,stock update,,,https://img1a.flixcart.com/image/50/50/xif0q/stuffed-toy/1/l/g/flufies-minecraft-pillow-minecraft-toys-for-kids-20-fusked-original-imah6qr3nahkfevg.jpeg,,Grand Total,Inactive,1360
+1871,BTS_COOKY,Water_balloon3,Rudrav Meesho,,,,#REF!,,,GL FK,,951
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:37:09 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:37:11 [ERROR] Pipeline failed on step 3: Object of type GeneratePythonCodePrompt is not JSON serializable
+2025-06-15 15:38:38 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:38:38 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:38:38 [INFO] Prompt ID: 73e265ec-2004-452a-955a-c89bfa616055
+2025-06-15 15:38:38 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:38:38 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:38:38 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:38:38 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:38:38 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+3900,41256820,CSTE_0189_MB_Transparent_Circle,CSTE AMAZON,Inactive,,,#REF!,https://img1a.flixcart.com/image/50/50/xif0q/sunglass/s/h/j/standard-square-sunglass-fusked-original-imagtypazjwvpn7n.jpeg,,,Rudrav Meesho,5218
+3696,Beatels 4 Head Music Box-Brown,,Cste Amazon,,Deleted,,,,,CSTE FK,,687
+1451,lalaland+the beatles,CSTE_0038_MB_HP_Red,GL FK,Active,combo paused,,#REF!,https://img1a.flixcart.com/image/50/50/xif0q/stuffed-toy/g/t/0/flufies-minecraft-pillow-minecraft-toys-for-kids-20-fusked-original-imah6qtnzt5h2fvk.jpeg,,panels,panels,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:38:38 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:38:38 [ERROR] Pipeline failed on step 3: Object of type GeneratePythonCodePrompt is not JSON serializable
+2025-06-15 15:39:17 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:39:17 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:39:17 [INFO] Prompt ID: 86440715-acf9-4be4-84e5-44452f7c3fb3
+2025-06-15 15:39:17 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:39:17 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:39:17 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:39:17 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:39:17 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+2644,"Rudrav_Thanos_Toy with Super Villain for Kids, Action Figure",,Rudrav Meesho,Inactive,pause,,,https://images.meesho.com/images/products/87809097/jevby.webp?width=256,,CSTE AMAZON,Inactive,
+1456,oxi_vap_combo_fba,CSTE_O0109_OT_CookyMetalKeychain,GL FK,,,,#REF!,https://img1a.flixcart.com/image/50/50/xif0q/piano-lid/n/s/3/12-12-500-kalimba-thumb-17-keys-piano-musical-instrument-with-original-imagt3wmm5gqupaf.jpeg,,Rudrav Meesho,,687
+363,Kalima brown-17,41256821,CSTE MEESHO,Active,paused,,#REF!,,,,Active,COUNTA of Status
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:39:17 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:39:18 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-15 15:39:18 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'No auth credentials found', 'code': 401}}
+2025-06-15 15:41:16 [INFO] Question: Which SKU generated the most revenue?
+2025-06-15 15:41:16 [INFO] Running PandasAI with openrouter LLM...
+2025-06-15 15:41:16 [INFO] Prompt ID: 5c81b6ef-00a4-4acb-8174-663b5960253a
+2025-06-15 15:41:16 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-06-15 15:41:16 [INFO] Executing Step 0: ValidatePipelineInput
+2025-06-15 15:41:16 [INFO] Executing Step 1: CacheLookup
+2025-06-15 15:41:16 [INFO] Executing Step 2: PromptGeneration
+2025-06-15 15:41:16 [INFO] Using prompt: <dataframe>
+dfs[0]:5218x13
+Unnamed: 0,sku,msku,panels,Status,Status.1,Unnamed: 5,image,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+257,CSTE_0158_SG_Thunder_Red,CSTE_0266_ST_RJ_tata,CSTE MEESHO,In Progress,Blocked,,#REF!,https://m.media-amazon.com/images/I/41apqxzpOML.jpg,,,,
+3547,MB_MHAll_Black,,GL FK,Inactive,,,#REF!,https://images.meesho.com/images/products/458448877/ggpqu.webp?width=256,,CSTE AMAZON,CSTE AMAZON,0
+1891,mahogany_21notes_kalimba,CSTE_0333_Wands_Dumbledore_Light,Cste Amazon,,paused,,,,,Rudrav Meesho,Rudrav Meesho,801
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which SKU generated the most revenue?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-06-15 15:41:16 [INFO] Executing Step 3: CodeGenerator
+2025-06-15 15:41:17 [ERROR] Pipeline failed on step 3: OpenRouter API Error: 401 - {"error":{"message":"No auth credentials found","code":401}}
